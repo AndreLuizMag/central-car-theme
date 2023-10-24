@@ -1,0 +1,7 @@
+@mixin property($property, $classes...){
+  @each $class in $classes{
+    &-#{$class}{
+      #{$property}: $class;
+    }
+  }
+}

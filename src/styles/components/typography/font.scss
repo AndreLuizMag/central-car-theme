@@ -1,0 +1,55 @@
+.font {
+	@include font(style, normal, italic, oblique);
+
+	&-weight {
+		&-100,
+		&-thin {
+			font-weight: 100;
+		}
+
+		&-200,
+		&-extra-light {
+			font-weight: 200;
+		}
+
+		&-300,
+		&-light {
+			font-weight: 300;
+		}
+
+		&-400,
+		&-regular {
+			font-weight: 400;
+		}
+
+		&-500,
+		&-medium {
+			font-weight: 500;
+		}
+
+		&-600,
+		&-semi-bold {
+			font-weight: 600;
+		}
+
+		&-700,
+		&-bold {
+			font-weight: 700;
+		}
+
+		&-800,
+		&-extra-bold {
+			font-weight: 800;
+		}
+
+		&-900,
+		&-black {
+			font-weight: 900;
+		}
+
+		&-1000,
+		&-weight {
+			font-weight: 1000;
+		}
+	}
+}

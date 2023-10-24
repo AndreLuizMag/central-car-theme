@@ -1,0 +1,33 @@
+@include prefix('container') {
+	&-lg,
+	&-md,
+	&-sm,
+	&-full {
+		@include container-default;
+	}
+
+	&-lg {
+		width: min(var(--container-lg), 100%);
+	}
+
+	&-md {
+		width: min(var(--container-md), 100%);
+	}
+
+	&-sm {
+		width: min(var(--container-sm), 100%);
+	}
+
+	&-full {
+		width: 100%;
+	}
+
+	@include res-query-lg {
+		&-lg,
+		&-md,
+		&-sm,
+		&-full {
+			padding: 0 1rem;
+		}
+	}
+}

@@ -1,0 +1,7 @@
+:is(.title-sm, .title-md, .title-lg){
+  font-weight: var(--title-weight);
+}
+
+.title {
+  @include title-size
+}

@@ -1,0 +1,10 @@
+// :is(body, .text-xs, .text-sm, .text-md, .text-lg, .text-xl){
+//   font-family: var(--font-text);
+//   font-weight: var(--font-weight);
+// }
+
+.text {
+  // @include text-size;
+  // @include text(decoration, underline, overline, none);
+  // @include text(align, left, center, right);
+}

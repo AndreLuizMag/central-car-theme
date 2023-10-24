@@ -1,0 +1,21 @@
+.gap {
+	&less,
+	&-0 {
+		gap: 0;
+	}
+	&-xs {
+		gap: 0.25rem;
+	}
+	&-sm {
+		gap: 0.5rem;
+	}
+	&-md {
+		gap: 1rem;
+	}
+	&-lg {
+		gap: 2rem;
+	}
+	&-xl {
+		gap: 4rem;
+	}
+}

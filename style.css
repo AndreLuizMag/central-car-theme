@@ -1,0 +1,19 @@
+/*
+Theme Name:   Prime Motors Theme
+Theme URI:    https://github.com/AndreLuizMag/prime-motors-theme
+Author:       André Luiz
+Author URI:   https://github.com/AndreLuizMag
+Template:     twentytwentyone
+Description:  Theme Prime Motors.
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         child-theme, prime-motors.
+
+*/
+
+// HelixCSS
+@import url('/dist/compressed/main.css');
+
+// Internal CSS
+@import url('/dist/compressed/local.css');

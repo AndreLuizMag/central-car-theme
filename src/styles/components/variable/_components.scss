@@ -1,0 +1,14 @@
+@import '../layout/variable';
+@import '../radius/variable';
+@import '../typography/variable';
+@import 'size';
+
+:root {
+	--size-0: 0rem;
+
+	@include var-size;
+	@include var-container;
+	@include var-container;
+	@include var-radius;
+	@include var-typography;
+}

@@ -1,0 +1,81 @@
+// Flow direction
+@mixin flow {
+	&-row-wr {
+		flex-flow: row wrap;
+	}
+
+	&-row-nw {
+		flex-flow: row nowrap;
+	}
+
+	&-row-rev-wr {
+		flex-flow: row-reverse wrap;
+	}
+
+	&-row-rev-nw {
+		flex-flow: row-reverse nowrap;
+	}
+
+	&-col-wr {
+		flex-flow: column wrap;
+	}
+
+	&-col-nw {
+		flex-flow: column nowrap;
+	}
+
+	&-col-rev-wr {
+		flex-flow: column-reverse wrap;
+	}
+
+	&-col-rev-nw {
+		flex-flow: column-reverse nowrap;
+	}
+}
+
+// Justify content and Align items
+@mixin positioning($property) {
+	&-start {
+		#{$property}: flex-start;
+	}
+
+	&-center {
+		#{$property}: center;
+	}
+
+	&-end {
+		#{$property}: flex-end;
+	}
+}
+
+// Justify content and Align items center
+@mixin positioning-center {
+	align-items: center;
+	justify-content: center;
+}
+
+// Justify content
+@mixin positioning-justify {
+	&-between {
+		justify-content: space-between;
+	}
+
+	&-around {
+		justify-content: space-around;
+	}
+
+	&-evenly {
+		justify-content: space-evenly;
+	}
+}
+
+// Align items
+@mixin positioning-align {
+	&-stretch {
+		align-items: stretch;
+	}
+
+	&-baseline {
+		align-items: baseline;
+	}
+}

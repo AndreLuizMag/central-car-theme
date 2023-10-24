@@ -1,0 +1,15 @@
+// External partial
+// @import '../variable/';
+@import '../mixin/responsive';
+
+// Internal partial
+@import 'variable';
+@import 'root';
+@import 'mixin';
+@import 'responsive';
+
+// Content
+@import 'display';
+@import 'flow';
+@import 'justify';
+@import 'align';

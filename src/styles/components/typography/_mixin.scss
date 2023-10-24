@@ -1,0 +1,118 @@
+// Mixin for heading size
+@mixin heading {
+	&#{1} {
+		font-size: 2.5em;
+	}
+	&#{2} {
+		font-size: 2em;
+	}
+	&#{3} {
+		font-size: 1.5em;
+	}
+	&#{4} {
+		font-size: 1.25em;
+	}
+	&#{5} {
+		font-size: 1em;
+	}
+	&#{6} {
+		font-size: 0.75em;
+	}
+}
+
+// Mixin for title size
+@mixin title-size {
+	&-sm {
+		font-size: var(--title-sm);
+	}
+
+	&-md {
+		font-size: var(--title-md);
+	}
+
+	&-lg {
+		font-size: var(--title-lg);
+	}
+}
+
+// Mixin for text size
+@mixin text-size {
+	&-xs {
+		font-size: var(--text-xs);
+	}
+
+	&-sm {
+		font-size: var(--text-sm);
+	}
+
+	&-md {
+		font-size: var(--text-md);
+	}
+
+	&-lg {
+		font-size: var(--text-lg);
+	}
+
+	&-xl {
+		font-size: var(--text-xl);
+	}
+}
+
+// Mixin Style
+@mixin font($property, $values...) {
+	@each $value in $values {
+		&-#{$property}-#{$value} {
+			font-#{$property}: $value !important;
+		}
+	}
+}
+
+// Mixin font weight
+@mixin weight {
+	&-weight {
+		&-200,
+		&-extra-light {
+			font-weight: 200 !important;
+		}
+
+		&-300,
+		&-light {
+			font-weight: 300 !important;
+		}
+
+		&-400,
+		&-regular {
+			font-weight: 400 !important;
+		}
+
+		&-500,
+		&-medium {
+			font-weight: 500 !important;
+		}
+
+		&-600,
+		&-semi-bold {
+			font-weight: 600 !important;
+		}
+
+		&-700,
+		&-bold {
+			font-weight: 700 !important;
+		}
+
+		&-800,
+		&-extra-bold {
+			font-weight: 800 !important;
+		}
+
+		&-900,
+		&-black {
+			font-weight: 900 !important;
+		}
+
+		&-1000,
+		&-weight {
+			font-weight: 1000 !important;
+		}
+	}
+}

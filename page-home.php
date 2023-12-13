@@ -1,6 +1,6 @@
 <?php
 /*
-  Template name: Prime Motors Theme
+  Template name: Central Car Theme
 */
 get_header('header');
 
@@ -24,9 +24,9 @@ function emphasisCard()
             <div class="pm-col ps-relative content ds-flex flow-col-nw align-start justify-between">
               <div class="group-title ds-flex flow-col-nw">
                 <h1>
-                  Bem Vindo à Prime!
+                  Bem Vindo à Central!
                 </h1>
-                <p>Sinta-se em casa na Prime Motors, sua escolha de confiança para carros seminovos em Massachusetts. Faça parte da nossa comunidade de brasileiros satisfeitos e encontre os carros que você ama.</p>
+                <p>Sinta-se em casa na Central Car, sua escolha de confiança para carros seminovos em Massachusetts. Faça parte da nossa comunidade de brasileiros satisfeitos e encontre os carros que você ama.</p>
               </div>
               <a href="<?php echo get_phone_number(); ?>" target=" _blank" rel="noopener noreferrer" class="btn-cta white">
                 <span>Venha nos conhecer</span>
@@ -129,7 +129,7 @@ function emphasisCard()
     <section class="sec-emphasis ds-flex flow-col-nw gap-lg" id="benefits">
       <div class="pm-container-md ds-flex-center flow-col-nw">
         <div class="title-content ds-flex flow-col-nw align-center gap-md">
-          <h2 class="title">Conheça a Prime Motors</h2>
+          <h2 class="title">Conheça a Central Car</h2>
           <span class="subtitle">Os maiores destaques de quem escolhe ser Prime</span>
         </div>
       </div>
@@ -184,7 +184,7 @@ function emphasisCard()
 
               </div>
               <p class="subtitle">
-                Na Prime Motors, todos os carros são minuciosamente inspecionados e incluem garantia. Dirija com confiança e tranquilidade.
+                Na Central Car, todos os carros são minuciosamente inspecionados e incluem garantia. Dirija com confiança e tranquilidade.
               </p>
             </div>
           </div>
@@ -262,7 +262,7 @@ function emphasisCard()
     <section class="sec-about" id="about">
       <div class="pm-container-md ds-flex-center flow-col-nw gap-lg">
         <div class="title-content ds-flex flow-col-nw align-center gap-md">
-          <h2 class="title">Sobre a Prime Motors</h2>
+          <h2 class="title">Sobre a Central Car</h2>
           <span class="subtitle">Nosso cliente, nossa majestade!</span>
         </div>
         <div class="pm-row align-stretch gap-lg">
@@ -331,7 +331,7 @@ function emphasisCard()
               </svg>
             </summary>
             <div class="content">
-              <p>O mínimo de entrada para adquirir um carro na Prime Motors é atualmente de $2000.</p>
+              <p>O mínimo de entrada para adquirir um carro na Central Car é atualmente de $2000.</p>
             </div>
           </details>
           <details class="ps-relative">
@@ -342,7 +342,7 @@ function emphasisCard()
               </svg>
             </summary>
             <div class="content">
-              <p>O prazo de entrega padrão na Prime Motors é de 2 a 3 semanas, caso o carro já esteja disponível em nossa loja. Se você fizer uma encomenda personalizada, o prazo estimado é de 4 semanas.</p>
+              <p>O prazo de entrega padrão na Central Car é de 2 a 3 semanas, caso o carro já esteja disponível em nossa loja. Se você fizer uma encomenda personalizada, o prazo estimado é de 4 semanas.</p>
             </div>
           </details>
           <details class="ps-relative">
@@ -353,7 +353,7 @@ function emphasisCard()
               </svg>
             </summary>
             <div class="content">
-              <p>Sim, na Prime Motors, você tem a flexibilidade de quitar a entrada e os impostos até o dia da entrega do carro. Não é necessário pagar o valor total no momento da compra.</p>
+              <p>Sim, na Central Car, você tem a flexibilidade de quitar a entrada e os impostos até o dia da entrega do carro. Não é necessário pagar o valor total no momento da compra.</p>
             </div>
           </details>
           <details class="ps-relative">
@@ -364,7 +364,7 @@ function emphasisCard()
               </svg>
             </summary>
             <div class="content">
-              <p>Sim, é possível financiar outro carro na Prime Motors mesmo se você já tiver um financiamento em aberto. Trabalhamos em estreita colaboração com nossas financeiras para encontrar a melhor oferta para você.</p>
+              <p>Sim, é possível financiar outro carro na Central Car mesmo se você já tiver um financiamento em aberto. Trabalhamos em estreita colaboração com nossas financeiras para encontrar a melhor oferta para você.</p>
             </div>
           </details>
           <details class="ps-relative">
@@ -375,7 +375,7 @@ function emphasisCard()
               </svg>
             </summary>
             <div class="content">
-              <p>Sim, na Prime Motors, facilitamos o processo de financiamento para todos, independentemente do status do SSN ou ITIN.</p>
+              <p>Sim, na Central Car, facilitamos o processo de financiamento para todos, independentemente do status do SSN ou ITIN.</p>
             </div>
           </details>
           <details class="ps-relative">
@@ -424,7 +424,7 @@ function emphasisCard()
           <div class="pm-row align-stretch">
             <div class="pm-col content-col is-5 ds-flex flow-col-nw justify-start align-start gap-md">
               <p>
-                Precisa de ajuda ou informações adicionais? Estamos à disposição para atender às suas necessidades. Entre em contato conosco e deixe-nos ajudar a tornar sua experiência na Prime Motors excepcional.
+                Precisa de ajuda ou informações adicionais? Estamos à disposição para atender às suas necessidades. Entre em contato conosco e deixe-nos ajudar a tornar sua experiência na Central Car excepcional.
               </p>
               <?php echo apply_shortcodes('[contact-form-7 id="e4dcff3" title="Formulário de contato 1"]'); ?>
             </div>

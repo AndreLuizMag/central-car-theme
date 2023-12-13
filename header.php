@@ -37,10 +37,10 @@ function get_phone_number()
 
   <header class="prime-header">
     <div class="pm-container-lg ds-flex justify-between align-center">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/image/brand/brand.png" alt="Logo da Prime Motors" class="brand-mobile">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/image/brand/brand.png" alt="Logo da Central Car" class="brand-mobile">
       <nav class="nav-menu ds-flex justify-between align-center" data-status="hide">
         <a href="<?php echo get_site_url(); ?>/#intro" class="brand-desktop">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/image/brand/brand.png" alt="Logo da Prime Motors">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/image/brand/brand.png" alt="Logo da Central Car">
         </a>
         <button title="Botão de fechar" class="btn-close">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -10,10 +10,10 @@
   --duration-normal: 0.25s;
   --mb-card-size: calc(100vw - 3rem);
   --gradient-01: linear-gradient(
-  	77deg,
-  	#9f5617 7.07%,
-  	#ffd15d 49.79%,
-  	#a45b19 92.51%
+  	45deg,
+  	#000 0%,
+  	#f00 29.45%,
+  	#000 100%
   );
 }
 
@@ -92,7 +92,7 @@ header.prime-header .nav-menu .btn {
 header.prime-header .nav-menu .btn {
   padding: 0.75rem 1.5rem;
   position: relative;
-  background: linear-gradient(77deg, #9f5617 0%, #ffd15d 50%, #a45b19 100%);
+  background: var(--gradient-01);
 }
 header.prime-header .nav-menu .btn span {
   position: relative;
@@ -384,7 +384,7 @@ header.prime-header .nav-menu .btn:hover::before {
   z-index: 1;
   inset: -100%;
   aspect-ratio: 1/1;
-  background: radial-gradient(33.36% 69.73% at 50% 51.1%, #9f5617 21.38%, #ffd15d 76.5%, #a45b19 100%);
+  background: var(--gradient-01);
   -webkit-animation: rotate-center 20s linear infinite both;
   animation: rotate-center 10s linear infinite both;
 }
@@ -433,7 +433,7 @@ header.prime-header .nav-menu .btn:hover::before {
   background-color: var(--color-02);
 }
 .btn-cta.gradient {
-  background: linear-gradient(180deg, #fed05d 0%, #9f5617 100%);
+  background: var(--gradient-01);
   color: var(--color-01);
 }
 .btn-cta:hover {
@@ -558,7 +558,7 @@ main section.sec-intro .owl-carousel .slide-item {
   overflow: hidden;
   height: calc(100dvh - var(--header-height) - 4rem);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.04), 0px 4px 4px 0px rgba(0, 0, 0, 0.04), 0px 8px 8px 0px rgba(0, 0, 0, 0.12);
-  border: 2px solid #a45b19;
+  border: 2px solid #610505;
 }
 main section.sec-intro .owl-carousel .slide-item .content {
   z-index: 2;
@@ -776,7 +776,7 @@ main section.sec-emphasis .group-emphasis .card-emphasis::before {
   position: absolute;
   top: 0;
   right: 0;
-  background-image: url('data:image/svg+xml,<svg width="127" height="88" viewBox="0 0 127 88" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 43.5L40 10.5L76.5 0L127 10.5V69.5L93 48H55L0 88L13 43.5Z" fill="url(%23paint0_linear_258_3452)"/><defs><linearGradient id="paint0_linear_258_3452" x1="-3.4313e-07" y1="55.3092" x2="120.192" y2="14.5567" gradientUnits="userSpaceOnUse"><stop stop-color="%239F5617"/><stop offset="0.5" stop-color="%23FFD15D"/><stop offset="1" stop-color="%23A45B19"/></linearGradient></defs></svg>');
+  background-image: url('data:image/svg+xml,<svg width="247" height="208" viewBox="0 0 247 208" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(%23filter0_f_290_3590)"><path d="M73 103.5L100 70.5L136.5 60L187 70.5V129.5L153 108H115L60 148L73 103.5Z" fill="url(%23paint0_linear_290_3590)"/></g><defs><filter id="filter0_f_290_3590" x="0" y="0" width="247" height="208" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="30" result="effect1_foregroundBlur_290_3590"/></filter><linearGradient id="paint0_linear_290_3590" x1="60" y1="148" x2="142.393" y2="29.0914" gradientUnits="userSpaceOnUse"><stop/><stop offset="0.294462" stop-color="%23FF0000"/><stop offset="1"/></linearGradient></defs></svg>');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
